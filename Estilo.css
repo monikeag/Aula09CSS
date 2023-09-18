@@ -1,5 +1,6 @@
 .img {
-    padding: 50px 50px;
+    padding: 30px 30px;
+    margin: 10px 20px;
 }
 
 .tituloreceita {
@@ -13,3 +14,15 @@
 .dados{
     background-color: rgb(216, 11, 182);
 }
+
+div {
+    /* propriedades decorativas */
+    border: solid 1px black;
+    display: inline-block;
+    font-size: 32px;
+    font-family: Arial;
+     /* propriedades que fazem o "problema" */
+    width: 100px;
+    height: 110px;
+}
+
