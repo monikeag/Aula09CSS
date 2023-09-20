@@ -1,48 +1,34 @@
-.img {
-    padding: 30px 30px;
-    margin: 10px 20px;
+p:hover {
+    font-size: 20px;
+    color: brown;
+
 }
 
-.tituloreceita {
-    background-color: brown;
+
+p:active{
+    color: blue;
 }
 
-.tabela{
-    background-color: blueviolet;
+a:visited {
+    color: rgb(54, 216, 108);
 }
 
-.dados{
-    background-color: rgb(216, 11, 182);
+a:focus {
+    background: blueviolet;
 }
 
-div {
-    /* propriedades decorativas */
-    border: dotted 3px rgb(158, 8, 172);
-    border-radius: 10px;
-    display: inline-block;
-    font-size: 32px;
-    font-family: Arial;
-     /* propriedades que fazem o "problema" */
-    width: 150px;
-    height: 100px;
-    padding-top: 6px;
-    padding-bottom: 6px;
-    padding-left: 9px;
-    padding-right: 9px;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    margin-right: 9px;
-    margin-left: 9px;
 
-    overflow: scroll;
-
- 
+li:last-child {
+    color: blueviolet;
 }
-p {
-    display: inline;
+li:nth-child(3){
+    color: brown;
+    
 }
+li:not(.item){
+    font-size: 40px;
 
-span {
-    display: block;
 }
-
+li:first-child {
+    color: rgb(26, 179, 206);
+}
